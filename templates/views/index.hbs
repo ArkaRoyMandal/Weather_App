@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>header}}
+</head>
+<body>
+  
+{{>navbar}}
+
+    <div class="container-fluid ">
+        <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+
+           
+               <!---Main header-->  
+          <div class="col-md-6 col-12 main_header_left">
+            <p>Welcome to weather app</p>
+            <h1>Get The Latest <span >Weather</span> Info of Your City</h1>
+            <a href="/weather"><button>check now</button></a>
+          </div>
+          <div class="col-md-6 col-12 main_header_right">
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="image/bg1.png" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/bg2.png"  alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/bg2.png"  alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+          </div>
+          <!---Main header end--> 
+        </div>
+          </div>
+        </div>
+    </div>
+    
+    {{>footer}}
+   
+</body>
+</html>
